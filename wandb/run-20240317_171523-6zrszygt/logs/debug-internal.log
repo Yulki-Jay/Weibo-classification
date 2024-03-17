@@ -1,0 +1,284 @@
+2024-03-17 17:15:23,793 INFO    StreamThr :91039 [internal.py:wandb_internal():86] W&B internal server running at pid: 91039, started at: 2024-03-17 17:15:23.791703
+2024-03-17 17:15:23,796 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status
+2024-03-17 17:15:23,799 INFO    WriterThread:91039 [datastore.py:open_for_write():85] open: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/run-6zrszygt.wandb
+2024-03-17 17:15:23,803 DEBUG   SenderThread:91039 [sender.py:send():375] send: header
+2024-03-17 17:15:23,916 DEBUG   SenderThread:91039 [sender.py:send():375] send: run
+2024-03-17 17:15:25,481 INFO    SenderThread:91039 [dir_watcher.py:__init__():219] watching files in: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files
+2024-03-17 17:15:25,481 INFO    SenderThread:91039 [sender.py:_start_run_threads():1124] run started: 6zrszygt with start time 1710666923.787831
+2024-03-17 17:15:25,481 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: summary_record
+2024-03-17 17:15:25,483 INFO    SenderThread:91039 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-17 17:15:25,488 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: check_version
+2024-03-17 17:15:25,489 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: check_version
+2024-03-17 17:15:26,374 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: run_start
+2024-03-17 17:15:26,383 DEBUG   HandlerThread:91039 [system_info.py:__init__():31] System info init
+2024-03-17 17:15:26,383 DEBUG   HandlerThread:91039 [system_info.py:__init__():46] System info init done
+2024-03-17 17:15:26,383 INFO    HandlerThread:91039 [system_monitor.py:start():181] Starting system monitor
+2024-03-17 17:15:26,384 INFO    SystemMonitor:91039 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-03-17 17:15:26,384 INFO    HandlerThread:91039 [system_monitor.py:probe():201] Collecting system info
+2024-03-17 17:15:26,385 INFO    SystemMonitor:91039 [interfaces.py:start():190] Started cpu monitoring
+2024-03-17 17:15:26,387 INFO    SystemMonitor:91039 [interfaces.py:start():190] Started disk monitoring
+2024-03-17 17:15:26,388 INFO    SystemMonitor:91039 [interfaces.py:start():190] Started gpu monitoring
+2024-03-17 17:15:26,390 INFO    SystemMonitor:91039 [interfaces.py:start():190] Started memory monitoring
+2024-03-17 17:15:26,392 INFO    SystemMonitor:91039 [interfaces.py:start():190] Started network monitoring
+2024-03-17 17:15:26,481 DEBUG   HandlerThread:91039 [system_info.py:probe():195] Probing system
+2024-03-17 17:15:26,486 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/wandb-summary.json
+2024-03-17 17:15:26,501 DEBUG   HandlerThread:91039 [system_info.py:_probe_git():180] Probing git
+2024-03-17 17:15:26,537 DEBUG   HandlerThread:91039 [system_info.py:_probe_git():188] Probing git done
+2024-03-17 17:15:26,537 DEBUG   HandlerThread:91039 [system_info.py:probe():240] Probing system done
+2024-03-17 17:15:26,537 DEBUG   HandlerThread:91039 [system_monitor.py:probe():210] {'os': 'Linux-4.15.0-163-generic-x86_64-with-glibc2.17', 'python': '3.8.16', 'heartbeatAt': '2024-03-17T09:15:26.481779', 'startedAt': '2024-03-17T09:15:23.769211', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/jiangyunqi/Code/TangWen/Weibo-classification/class.py', 'codePath': 'class.py', 'git': {'remote': 'https://github.com/Yulki-Jay/Weibo-classification.git', 'commit': 'f1931d01b927b0da9dee5820310782b6a1ada762'}, 'email': 'yulki.jay@gmail.com', 'root': '/home/jiangyunqi/Code/TangWen/Weibo-classification', 'host': 'server12', 'username': 'jiangyunqi', 'executable': '/home/jiangyunqi/anaconda3/envs/study-transformer/bin/python', 'cpu_count': 56, 'cpu_count_logical': 112, 'cpu_freq': {'current': 1.0358035714285714, 'min': 1000.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.001, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.001, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.001, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.101, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.001, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 3.068, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.001, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.002, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 0.999, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2.897, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.001, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}], 'disk': {'total': 8870.145122528076, 'used': 5445.346691131592}, 'gpu': 'GeForce RTX 3090', 'gpu_count': 4, 'gpu_devices': [{'name': 'GeForce RTX 3090', 'memory_total': 25447170048}, {'name': 'GeForce RTX 3090', 'memory_total': 25447170048}, {'name': 'TITAN RTX', 'memory_total': 25396838400}, {'name': 'TITAN RTX', 'memory_total': 25396838400}], 'memory': {'total': 377.5605659484863}}
+2024-03-17 17:15:26,538 INFO    HandlerThread:91039 [system_monitor.py:probe():211] Finished collecting system info
+2024-03-17 17:15:26,538 INFO    HandlerThread:91039 [system_monitor.py:probe():214] Publishing system info
+2024-03-17 17:15:26,538 DEBUG   HandlerThread:91039 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-03-17 17:15:26,541 DEBUG   HandlerThread:91039 [system_info.py:_save_pip():67] Saving pip packages done
+2024-03-17 17:15:26,541 DEBUG   HandlerThread:91039 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-03-17 17:15:27,490 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/conda-environment.yaml
+2024-03-17 17:15:27,490 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/requirements.txt
+2024-03-17 17:15:37,068 DEBUG   HandlerThread:91039 [system_info.py:_save_conda():86] Saving conda packages done
+2024-03-17 17:15:37,073 INFO    HandlerThread:91039 [system_monitor.py:probe():216] Finished publishing system info
+2024-03-17 17:15:37,079 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:15:37,080 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-17 17:15:37,080 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:15:37,080 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-17 17:15:37,081 DEBUG   SenderThread:91039 [sender.py:send():375] send: files
+2024-03-17 17:15:37,082 INFO    SenderThread:91039 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-03-17 17:15:37,094 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-17 17:15:37,095 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: stop_status
+2024-03-17 17:15:37,501 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/conda-environment.yaml
+2024-03-17 17:15:37,501 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/wandb-metadata.json
+2024-03-17 17:15:38,181 DEBUG   SenderThread:91039 [sender.py:send():375] send: telemetry
+2024-03-17 17:15:38,181 DEBUG   SenderThread:91039 [sender.py:send():375] send: config
+2024-03-17 17:15:38,182 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:15:38,183 DEBUG   SenderThread:91039 [sender.py:send():375] send: telemetry
+2024-03-17 17:15:38,183 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:15:38,183 WARNING SenderThread:91039 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2024-03-17 17:15:38,449 INFO    wandb-upload_0:91039 [upload_job.py:push():137] Uploaded file /tmp/tmp1ryc6u6bwandb/b4h7t36u-wandb-metadata.json
+2024-03-17 17:15:38,502 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:15:40,192 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:15:40,506 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:15:45,188 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:15:50,525 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:15:50,682 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:15:52,096 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-17 17:15:52,097 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: stop_status
+2024-03-17 17:15:56,609 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:15:57,535 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/config.yaml
+2024-03-17 17:15:58,537 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:16:02,341 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:06,548 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:16:07,096 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-17 17:16:07,097 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: stop_status
+2024-03-17 17:16:07,675 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:12,677 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:16,559 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:16:18,474 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:22,096 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-17 17:16:22,097 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: stop_status
+2024-03-17 17:16:24,130 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:24,570 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:16:26,393 DEBUG   SystemMonitor:91039 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-03-17 17:16:26,399 DEBUG   SenderThread:91039 [sender.py:send():375] send: stats
+2024-03-17 17:16:29,404 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:32,580 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:16:35,251 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:37,098 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-17 17:16:37,099 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: stop_status
+2024-03-17 17:16:40,589 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:16:40,852 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:45,854 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:48,599 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:16:51,074 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:52,096 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-17 17:16:52,098 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: stop_status
+2024-03-17 17:16:56,289 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:16:56,402 DEBUG   SenderThread:91039 [sender.py:send():375] send: stats
+2024-03-17 17:16:56,608 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:01,407 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:04,503 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-17 17:17:04,506 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:04,507 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:04,507 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:04,507 DEBUG   SenderThread:91039 [sender.py:send():375] send: history
+2024-03-17 17:17:04,507 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: summary_record
+2024-03-17 17:17:04,509 INFO    SenderThread:91039 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-17 17:17:04,618 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/wandb-summary.json
+2024-03-17 17:17:06,512 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:06,621 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:07,097 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-17 17:17:07,098 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: stop_status
+2024-03-17 17:17:11,673 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:14,632 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:16,770 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:21,777 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:22,097 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-17 17:17:22,098 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: stop_status
+2024-03-17 17:17:22,642 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:24,645 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:26,414 DEBUG   SenderThread:91039 [sender.py:send():375] send: stats
+2024-03-17 17:17:26,649 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:26,991 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:28,652 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:30,655 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:31,392 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-17 17:17:31,396 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:31,397 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:31,397 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:31,397 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:31,397 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:31,397 DEBUG   SenderThread:91039 [sender.py:send():375] send: history
+2024-03-17 17:17:31,398 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: summary_record
+2024-03-17 17:17:31,404 INFO    SenderThread:91039 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-17 17:17:31,657 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/wandb-summary.json
+2024-03-17 17:17:32,411 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:32,659 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:33,731 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/config.yaml
+2024-03-17 17:17:38,277 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:43,279 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:43,971 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-17 17:17:43,972 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: stop_status
+2024-03-17 17:17:45,063 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-17 17:17:45,066 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:45,067 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:45,067 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:45,067 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:45,067 DEBUG   SenderThread:91039 [sender.py:send():375] send: metric
+2024-03-17 17:17:45,067 DEBUG   SenderThread:91039 [sender.py:send():375] send: history
+2024-03-17 17:17:45,068 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: summary_record
+2024-03-17 17:17:45,070 INFO    SenderThread:91039 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-17 17:17:45,111 DEBUG   SenderThread:91039 [sender.py:send():375] send: exit
+2024-03-17 17:17:45,111 INFO    SenderThread:91039 [sender.py:send_exit():598] handling exit code: 0
+2024-03-17 17:17:45,112 INFO    SenderThread:91039 [sender.py:send_exit():600] handling runtime: 138
+2024-03-17 17:17:45,114 INFO    SenderThread:91039 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-17 17:17:45,114 INFO    SenderThread:91039 [sender.py:send_exit():606] send defer
+2024-03-17 17:17:45,115 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:45,115 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 0
+2024-03-17 17:17:45,116 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:45,116 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-03-17 17:17:45,116 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 1
+2024-03-17 17:17:45,116 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:45,116 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 1
+2024-03-17 17:17:45,117 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:45,117 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-03-17 17:17:45,117 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 2
+2024-03-17 17:17:45,117 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:45,117 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 2
+2024-03-17 17:17:45,117 INFO    HandlerThread:91039 [system_monitor.py:finish():190] Stopping system monitor
+2024-03-17 17:17:45,119 DEBUG   SystemMonitor:91039 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-03-17 17:17:45,120 DEBUG   SystemMonitor:91039 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-03-17 17:17:45,120 INFO    HandlerThread:91039 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-17 17:17:45,125 INFO    HandlerThread:91039 [interfaces.py:finish():202] Joined disk monitor
+2024-03-17 17:17:45,505 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/wandb-summary.json
+2024-03-17 17:17:45,562 INFO    HandlerThread:91039 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-17 17:17:45,562 INFO    HandlerThread:91039 [interfaces.py:finish():202] Joined memory monitor
+2024-03-17 17:17:45,563 INFO    HandlerThread:91039 [interfaces.py:finish():202] Joined network monitor
+2024-03-17 17:17:45,564 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:45,564 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-03-17 17:17:45,564 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 3
+2024-03-17 17:17:45,564 DEBUG   SenderThread:91039 [sender.py:send():375] send: stats
+2024-03-17 17:17:45,564 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:45,565 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 3
+2024-03-17 17:17:45,566 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:45,566 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-03-17 17:17:45,566 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 4
+2024-03-17 17:17:45,566 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:45,566 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 4
+2024-03-17 17:17:45,567 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:45,567 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-03-17 17:17:45,567 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 5
+2024-03-17 17:17:45,567 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:45,567 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 5
+2024-03-17 17:17:45,568 DEBUG   SenderThread:91039 [sender.py:send():375] send: summary
+2024-03-17 17:17:45,570 INFO    SenderThread:91039 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-03-17 17:17:45,571 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:45,571 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-03-17 17:17:45,571 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 6
+2024-03-17 17:17:45,571 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:45,571 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 6
+2024-03-17 17:17:45,572 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:45,572 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-03-17 17:17:45,577 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:46,112 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-17 17:17:46,159 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 7
+2024-03-17 17:17:46,159 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: poll_exit
+2024-03-17 17:17:46,160 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:46,161 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 7
+2024-03-17 17:17:46,162 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:46,162 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-03-17 17:17:46,507 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/config.yaml
+2024-03-17 17:17:46,507 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/wandb-summary.json
+2024-03-17 17:17:46,507 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:46,574 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 8
+2024-03-17 17:17:46,574 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:46,575 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 8
+2024-03-17 17:17:46,575 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:46,575 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-03-17 17:17:46,597 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 9
+2024-03-17 17:17:46,598 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:46,598 DEBUG   SenderThread:91039 [sender.py:send():375] send: artifact
+2024-03-17 17:17:46,598 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 9
+2024-03-17 17:17:47,114 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-17 17:17:47,508 INFO    Thread-12 :91039 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:49,348 INFO    wandb-upload_0:91039 [upload_job.py:push():92] Skipped uploading /home/jiangyunqi/.local/share/wandb/artifacts/staging/tmpkvvc713i
+2024-03-17 17:17:50,340 INFO    wandb-upload_1:91039 [upload_job.py:push():95] Uploaded file /home/jiangyunqi/.local/share/wandb/artifacts/staging/tmp414w5x39
+2024-03-17 17:17:52,117 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-17 17:17:53,115 INFO    SenderThread:91039 [sender.py:send_artifact():1474] sent artifact job-https___github.com_Yulki-Jay_Weibo-classification.git_class.py - {'id': 'QXJ0aWZhY3Q6NzU5NzQ5NjYw', 'digest': '94665de19517577d003c1c70b061b6af', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0OTY2MDEwOA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzU5NzQ1ODc3', 'versionIndex': 1}}, 'version': 'latest'}
+2024-03-17 17:17:53,115 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:53,115 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: status_report
+2024-03-17 17:17:53,116 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-03-17 17:17:53,116 INFO    SenderThread:91039 [dir_watcher.py:finish():365] shutting down directory watcher
+2024-03-17 17:17:53,510 INFO    SenderThread:91039 [dir_watcher.py:finish():395] scan: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files
+2024-03-17 17:17:53,511 INFO    SenderThread:91039 [dir_watcher.py:finish():409] scan save: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/wandb-summary.json wandb-summary.json
+2024-03-17 17:17:53,511 INFO    SenderThread:91039 [dir_watcher.py:finish():409] scan save: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/wandb-metadata.json wandb-metadata.json
+2024-03-17 17:17:53,511 INFO    SenderThread:91039 [dir_watcher.py:finish():409] scan save: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/conda-environment.yaml conda-environment.yaml
+2024-03-17 17:17:53,512 INFO    SenderThread:91039 [dir_watcher.py:finish():409] scan save: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/config.yaml config.yaml
+2024-03-17 17:17:53,525 INFO    SenderThread:91039 [dir_watcher.py:finish():409] scan save: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/requirements.txt requirements.txt
+2024-03-17 17:17:53,534 INFO    SenderThread:91039 [dir_watcher.py:finish():409] scan save: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log output.log
+2024-03-17 17:17:53,536 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 10
+2024-03-17 17:17:53,537 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: poll_exit
+2024-03-17 17:17:53,544 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:53,544 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 10
+2024-03-17 17:17:53,553 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:53,554 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-03-17 17:17:53,555 INFO    SenderThread:91039 [file_pusher.py:finish():168] shutting down file pusher
+2024-03-17 17:17:54,549 INFO    wandb-upload_0:91039 [upload_job.py:push():137] Uploaded file /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/wandb-summary.json
+2024-03-17 17:17:55,064 INFO    wandb-upload_1:91039 [upload_job.py:push():137] Uploaded file /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/conda-environment.yaml
+2024-03-17 17:17:55,426 INFO    wandb-upload_4:91039 [upload_job.py:push():137] Uploaded file /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/output.log
+2024-03-17 17:17:55,443 INFO    wandb-upload_2:91039 [upload_job.py:push():137] Uploaded file /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/config.yaml
+2024-03-17 17:17:55,661 INFO    wandb-upload_3:91039 [upload_job.py:push():137] Uploaded file /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/files/requirements.txt
+2024-03-17 17:17:55,861 INFO    Thread-11 :91039 [sender.py:transition_state():626] send defer: 11
+2024-03-17 17:17:55,862 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:55,862 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 11
+2024-03-17 17:17:55,863 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:55,863 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-03-17 17:17:55,863 INFO    SenderThread:91039 [file_pusher.py:join():173] waiting for file pusher
+2024-03-17 17:17:55,864 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 12
+2024-03-17 17:17:55,864 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:55,864 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 12
+2024-03-17 17:17:55,865 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:55,865 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-03-17 17:17:56,638 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 13
+2024-03-17 17:17:56,638 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:56,638 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 13
+2024-03-17 17:17:56,639 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:56,639 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-03-17 17:17:56,640 INFO    SenderThread:91039 [sender.py:transition_state():626] send defer: 14
+2024-03-17 17:17:56,641 DEBUG   SenderThread:91039 [sender.py:send():375] send: final
+2024-03-17 17:17:56,641 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: defer
+2024-03-17 17:17:56,642 DEBUG   SenderThread:91039 [sender.py:send():375] send: footer
+2024-03-17 17:17:56,642 INFO    HandlerThread:91039 [handler.py:handle_request_defer():170] handle defer: 14
+2024-03-17 17:17:56,643 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: defer
+2024-03-17 17:17:56,643 INFO    SenderThread:91039 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-03-17 17:17:56,645 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-17 17:17:56,646 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: poll_exit
+2024-03-17 17:17:56,647 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: server_info
+2024-03-17 17:17:56,648 DEBUG   SenderThread:91039 [sender.py:send_request():402] send_request: server_info
+2024-03-17 17:17:56,654 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: get_summary
+2024-03-17 17:17:56,655 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: sampled_history
+2024-03-17 17:17:57,135 INFO    MainThread:91039 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2024-03-17 17:17:57,136 INFO    MainThread:91039 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2024-03-17 17:17:57,137 INFO    MainThread:91039 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2024-03-17 17:17:57,138 DEBUG   HandlerThread:91039 [handler.py:handle_request():144] handle_request: shutdown
+2024-03-17 17:17:57,139 INFO    HandlerThread:91039 [handler.py:finish():845] shutting down handler
+2024-03-17 17:17:57,648 INFO    WriterThread:91039 [datastore.py:close():298] close: /home/jiangyunqi/Code/TangWen/Weibo-classification/wandb/run-20240317_171523-6zrszygt/run-6zrszygt.wandb
+2024-03-17 17:17:58,135 INFO    SenderThread:91039 [sender.py:finish():1550] shutting down sender
+2024-03-17 17:17:58,135 INFO    SenderThread:91039 [file_pusher.py:finish():168] shutting down file pusher
+2024-03-17 17:17:58,135 INFO    SenderThread:91039 [file_pusher.py:join():173] waiting for file pusher

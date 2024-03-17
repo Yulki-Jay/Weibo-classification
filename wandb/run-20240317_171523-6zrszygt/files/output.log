@@ -1,0 +1,26 @@
+  0%|                                                                                                                                                                                                                | 0/12 [00:00<?, ?it/s]You're using a BertTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/jiangyunqi/anaconda3/envs/study-transformer/lib/python3.8/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/jiangyunqi/anaconda3/envs/study-transformer/lib/python3.8/site-packages/torch/utils/checkpoint.py:90: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+ 83%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                 | 10/12 [01:27<00:16,  8.34s/it]
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [01:43<00:00,  8.21s/it]
+
+
+
+
+
+ 87%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                          | 40/46 [00:08<00:01,  4.40it/s]
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [02:07<00:00, 10.66s/it]
+{'train_runtime': 145.2682, 'train_samples_per_second': 11.393, 'train_steps_per_second': 0.083, 'train_loss': 3.3769169648488364, 'epoch': 0.93}
